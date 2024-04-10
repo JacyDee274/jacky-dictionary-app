@@ -3,3 +3,8 @@
   font-weight: bold;
   line-height: 1.5;
 }
+
+.phonetic {
+  opacity: 0.5;
+  font-weight: bold;
+}

@@ -17,7 +17,7 @@ export default function Dictionary(props) {
   }
 
   function handlePictureResponse(response) {
-    console.log(response.data);
+    setPhotos(response.data.photos);
   }
   function search() {
     let apiKey = "c2dtd96d439e4038fe94409oc4ab6feb";
